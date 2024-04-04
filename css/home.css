@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+.firstNav {
+    /* width: 100; */
+    background: transparent;
+    backdrop-filter: blur(7px);
+    height: 3.9rem;
+    position: sticky;
+    padding: 5px;
+    /* background-color: rgb(226, 243, 250); */
+    border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+.container {
+    margin: 0 15px 0 10px;
+}
+
+.navOne {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navOneIMG {
+    width: 10rem;
+    height: 100%;
+}
+
+.navOneIMG img {
+    width: 100%;
+    height: 100%;
+}
+
+.navitem {
+    width: fit-content;
+    display: flex;
+    margin-right: 10px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: Black;
+    border-radius: 8px;
+    padding: 4px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navitem a:hover {
+    /* color: white; */
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(224, 223, 223);
+}
+
+.header {
+    width: 100%;
+    height: 15rem;
+}
+
+.headerImg {
+    width: 100%;
+    height: 100%;
+}
+
+.headerImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.scndHeader {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 17rem;
+    background-color: rgb(246, 251, 252);
+}
+
+.scndHeaderIMG {
+    width: 20rem;
+    height: 25rem;
+}
+
+.scndHeaderIMG img {
+    width: 100%;
+    height: 100%;
+}
+
+.modalIMG {
+    width: 100%;
+    height: 100%;
+}
+
+.modalIMG img {
+    width: 100%;
+    height: 100%;
+}
+
+.seeDtails{
+    width: 50rem;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+/* .video1{
+    width: 100%;
+    height: 9rem;
+} */
+.mainvideo{
+    width: 100%;
+    height: 6rem;
+}
+.image{
+    width: 100%;
+    height: 9.2rem;
+}
+.image1{
+    width: 100%;
+}
